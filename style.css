@@ -1,0 +1,48 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+background:#222;
+height:100vh;
+}
+
+.navbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:25px 80px;
+color:white;
+}
+.logoimg{
+    width: 200px;
+}
+.nav-links{
+list-style:none;
+display:flex;
+gap:30px;
+font-size: large;
+}
+
+.nav-links a{
+text-decoration:none;
+color:white;
+}
+
+.right-section{
+display:flex;
+gap:20px;
+align-items:center;
+padding-left: 10px;
+}
+
+.book-btn{
+background:transparent;
+border:2px solid white;
+color:white;
+padding:10px 20px;
+cursor:pointer;
+
+}
